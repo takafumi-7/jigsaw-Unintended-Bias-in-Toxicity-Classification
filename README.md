@@ -36,7 +36,7 @@ Jigsaw社の提供する200万近くの文章を元に、テストデータと�
 
 ### 作成したコード    
 作成したコードは、同フォルダのtoxicity_classificationi.ipynbファイル内に記載しています。  
-<https://github.com/takafumi-7/Microsoft-Malware-Prediction/blob/master/malware_prediction.ipynb>
+<https://github.com/takafumi-7/jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/toxicity_classification.ipynb>
 
 大まかな流れとして、以下の順で処理するコードを作成しました。
 1. 訓練データ・テストデータを前処理
