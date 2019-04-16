@@ -36,7 +36,7 @@ Jigsaw社の提供する200万近くの文章を元に、テストデータと�
 
 ### 作成したコード    
 作成したコードは、同フォルダのtoxicity_classificationi.ipynbファイル内に記載しています。  
-<https://github.com/takafumi-7/jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/toxicity_classification.ipynb>
+<https://github.com/takafumi-7/jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/toxicity_classificatioin.ipynb>
 
 大まかな流れとして、以下の順で処理するコードを作成しました。
 1. 訓練データ・テストデータを前処理
@@ -68,11 +68,12 @@ StratifiedKFoldを用いて5回に分けてバリデーションを行う。
 ##### 3. テストデータの予測値を算出  
 モデル訓練時の計5回のバリデーションの際、その一回一回の中で
 訓練済みのモデルで予測値を出力する。  
-バリデーション終了後、5回分の予測値の平均をとりsubmit用csvファイルを出力する。
+バリデーション終了後、5回分の予測値の平均をとりsubmit用csvファイルを出力する。    
 
 ### 結果  
 AUC  : 0.90003   
 ランク: 752/893  
+<https://www.kaggle.com/takafumif/competitions>    
 
 ### スコアアップに向けて  
 現状大きく分けて以下の二通りの方法が考えられます。
